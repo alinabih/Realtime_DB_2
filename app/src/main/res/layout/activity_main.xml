@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="9dp"
+        android:text="Save"
+        app:layout_constraintBottom_toTopOf="@+id/getData"
+        app:layout_constraintStart_toStartOf="@+id/getData"
+        app:layout_constraintTop_toBottomOf="@+id/PersonAge" />
+
+    <Button
+        android:id="@+id/getData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="Get Data"
+        app:layout_constraintBottom_toTopOf="@+id/textData"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/save" />
+
+    <EditText
+        android:id="@+id/PersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        android:layout_marginBottom="29dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/PersonID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/PersonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="29dp"
+        android:ems="10"
+        android:hint="ID"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/PersonAge"
+        app:layout_constraintStart_toStartOf="@+id/PersonName"
+        app:layout_constraintTop_toBottomOf="@+id/PersonName" />
+
+    <EditText
+        android:id="@+id/PersonAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/save"
+        app:layout_constraintEnd_toEndOf="@+id/PersonID"
+        app:layout_constraintTop_toBottomOf="@+id/PersonID" />
+
+    <TextView
+        android:id="@+id/textData"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="16dp"
+        android:text="Text Data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/getData" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

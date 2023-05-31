@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1053371501996",
+    "project_id": "alia-de7f6",
+    "storage_bucket": "alia-de7f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053371501996:android:97cb038fe959798de47e09",
+        "android_client_info": {
+          "package_name": "com.example.batarey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053371501996-1pupemtpgtgosa25imso3rbltka09sjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-0Ps-oVeG6EDe9JUwYDhSjB1DOT0Fv3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053371501996-1pupemtpgtgosa25imso3rbltka09sjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053371501996:android:f6d5753faac8c58ee47e09",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053371501996-1pupemtpgtgosa25imso3rbltka09sjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-0Ps-oVeG6EDe9JUwYDhSjB1DOT0Fv3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053371501996-1pupemtpgtgosa25imso3rbltka09sjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
